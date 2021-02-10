@@ -56,6 +56,7 @@ function App() {
           placeholder="File search"
         />
       </div>
+      AQUI
       <FilesViewer files={filteredFiles} onBack={onBack} onOpen={onOpen} />
     </div>
   )

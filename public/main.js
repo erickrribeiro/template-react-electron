@@ -16,6 +16,11 @@ function createWindow() {
     }
   })
 
+  if (isDev) {
+    console.log('Modo produção!');
+  }else {
+    console.log('Modo produção!');
+  }
   win.loadURL(
     isDev
       ? 'http://localhost:3000'
